@@ -1,2 +1,2 @@
 # python
-python bilibili_study
+python3 学习
