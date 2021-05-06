@@ -1,0 +1,16 @@
+d={(1,2):95,'bob':75,'tracy':85}
+print(d[(1,2)])
+d['adam']=67
+print(d['adam'])
+print(d)
+print(d.get('thomas'))
+print(d.get("thoma",-1))
+print(d.pop('bob'))
+print(d)
+s=set([1,2,3.3])
+s.add(8)
+s.remove(2)
+s2=set([1,4,5,6])
+print(s&s2,'\n',s|s2)
+# s3=set([1,2,3,[1,2]])
+# print(s3)
